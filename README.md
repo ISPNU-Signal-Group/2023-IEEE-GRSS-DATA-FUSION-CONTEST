@@ -198,6 +198,7 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 
 - Disentangled Latent Transformer for Interpretable Monocular Height Estimation [code](https://paperswithcode.com/paper/disentangled-latent-transformer-for)
 
+Disentangled Latent Transformer for Interpretable Monocular Height Estimation  
 用于可解释单目高度估计的解耦潜在变压器  
 （高度估计）  
 网络：MHE  
@@ -206,6 +207,7 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 1)语义类别：区分树木、道路、建筑物等  
 （研究发现不同的类别对高度的预测有影响，且尺度越大，预测的高度值越大。此外，高度预测与阴影无太大相关性）  
 2）为防止语义无法识别，增加路径积分梯度的局部归因分析法。  
+![figure](https://github.com/ISPNU-Signal-Group/2023-IEEE-GRSS-DATA-FUSION-CONTEST/blob/main/images/1.jpg)  
 - Height and Uprightness Invariance for 3D Prediction From a Single View [code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
 
 
@@ -227,6 +229,7 @@ across-dataset generalization performance over existing state-of-the-art methods
 
 
 - CVNet: Contour Vibration Network for Building Extraction [code](https://paperswithcode.com/paper/cvnet-contour-vibration-network-for-building)
+
 
 用于建筑物提取的等高线振动网络
 （等高线建筑物提取）
