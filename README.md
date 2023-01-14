@@ -201,27 +201,13 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 用于可解释单目高度估计的解耦潜在变压器
 （高度估计）
 网络：MHE
-17 Jan 2022  ·  Zhitong Xiong, Sining Chen, Yilei Shi, Xiao Xiang Zhu ·  Edit social preview
-Monocular height estimation (MHE) from remote sensing imagery has high potential 
-in generating 3D city models efficiently for a quick response to natural disasters.
-Most existing works pursue higher performance. However, there is little research 
-exploring the interpretability of MHE networks. In this paper, 
-we target at exploring how deep neural networks predict height from a single monocular image. 
-Towards a comprehensive understanding of MHE networks, we propose to interpret them from multiple levels: 
-1) Neurons: unit-level dissection. Exploring the semantic and height selectivity of the learned internal deep representations; 
-2) Instances: object-level interpretation. Studying the effects of different semantic classes, scales, 
-and spatial contexts on height estimation; 
-3) Attribution: pixel-level analysis. 
-Understanding which input pixels are important for the height estimation. 
-Based on the multi-level interpretation, a disentangled latent Transformer network is proposed towards a more compact, 
-reliable, and explainable deep model for monocular height estimation. Furthermore, 
-a novel unsupervised semantic segmentation task based on height estimation is first introduced in this work. Additionally, 
-we also construct a new dataset for joint semantic segmentation and height estimation. 
-Our work provides novel insights for both understanding and designing MHE models.
-
-
-
+网络：Transformer-based MHE networks
+数据集：GTAH、real-world DFC 2019、Washington DC(WDC)。
+1)语义类别：区分树木、道路、建筑物等
+（研究发现不同的类别对高度的预测有影响，且尺度越大，预测的高度值越大。此外，高度预测与阴影无太大相关性）
+2）为防止语义无法识别，增加路径积分梯度的局部归因分析法。
 - Height and Uprightness Invariance for 3D Prediction From a Single View [code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
+
 
 单视图三维预测中的高度和垂直度不变性
 (高度和垂直不变性)
