@@ -271,15 +271,20 @@ Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field
 
 - Polygonal Building Extraction by Frame Field Learning [code](https://paperswithcode.com/paper/polygonal-building-extraction-by-frame-field)
 
-（矢量提取遥感图像的建物物）
-CVPR 2021  ·  Nicolas Girard, Dmitriy Smirnov, Justin Solomon, Yuliya Tarabalka ·  Edit social preview
-While state of the art image segmentation models typically output segmentations in raster format, 
-applications in geographic information systems often require vector polygons. 
-To help bridge the gap between deep network output and the format used in downstream tasks, 
-we add a frame field output to a deep segmentation model for extracting buildings from remote sensing images. 
-We train a deep neural network that aligns a predicted frame field to ground truth contours. 
-This additional objective improves segmentation quality by leveraging multi-task learning 
-and provides structural information that later facilitates polygonization; 
-we also introduce a polygonization algorithm that that utilizes the frame field along with the raster segmentation. 
-Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field-Learning.
+Polygonal Building Extraction by Frame Field Learning  
+（矢量提取遥感图像的建物物）    
+CVPR 2021  ·  Nicolas Girard, Dmitriy Smirnov, Justin Solomon, Yuliya Tarabalka ·  Edit social preview  
+While state of the art image segmentation models typically output segmentations in raster format,   
+applications in geographic information systems often require vector polygons.   
+To help bridge the gap between deep network output and the format used in downstream tasks,   
+we add a frame field output to a deep segmentation model for extracting buildings from remote sensing images.   
+We train a deep neural network that aligns a predicted frame field to ground truth contours.   
+This additional objective improves segmentation quality by leveraging multi-task learning   
+and provides structural information that later facilitates polygonization;   
+we also introduce a polygonization algorithm that that utilizes the frame field along with the raster segmentation.   
+![figure](https://github.com/ISPNU-Signal-Group/2023-IEEE-GRSS-DATA-FUSION-CONTEST/blob/main/images/ZC.png)  
+帧场模型图   
+![figure](https://github.com/ISPNU-Signal-Group/2023-IEEE-GRSS-DATA-FUSION-CONTEST/blob/main/images/ASM.png)    
+网络框架   
+Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field-Learning.  
 
