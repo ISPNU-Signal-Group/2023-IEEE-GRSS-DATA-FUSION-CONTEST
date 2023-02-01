@@ -288,3 +288,11 @@ we also introduce a polygonization algorithm that that utilizes the frame field 
 网络框架   
 Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field-Learning.  
 
+'''
+
+1月29号任务安排:
+1.跑通预测任务的pipline
+2.找可以替换的高度估计模块
+3.找促进SAR图像与光学图像融合的方法
+
+'''
